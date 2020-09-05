@@ -11,6 +11,8 @@ int main()
     scanf("%d", &num);
 
     printf("El factoria de %d es: %d", num, factorialEntero(num));
+    
+    system("pause");
 }
 
 int factorialEntero(int n)
