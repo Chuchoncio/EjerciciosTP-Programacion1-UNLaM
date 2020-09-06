@@ -1,0 +1,18 @@
+Para formalizar el prototipo:
+
+int insertarEnOrden( int *vec, int dato, int *cantE, int tam)
+
+retorno int ya que la función indica si pudo insertar o no el valor
+
+int * vec recibe el vector por puntero
+
+int dato es el dato que quiero colocar en la posición que no altere el orden.
+
+int* cantE es la cantidad de elementos que tiene en este momento el vector. Cuando termina la función tener en cuenta que el vector tiene un elemento más!!!
+
+int tam es el tamaño del vector, NO USAMOS el valor de #define TAM, ya que en mi proyecto puedo tener vectores de diferentes TAMs
+
+Hacer la función sin entrada salida, (printf/scanf), eso hacerlo por fuera de la función.
+La idea de establecer este prototipo es hacer un código genérico que sirva para vectores
+de diferentes tamaños y para aplicaciones también distintas (Consola, escritorio, servicios, SO),
+si hacemos el esfuerzo desde el inicio, luego se va a poder reutilizar el codigo en otras oportunidades.

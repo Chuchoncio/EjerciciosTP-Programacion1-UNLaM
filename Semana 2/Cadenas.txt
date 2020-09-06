@@ -1,0 +1,5 @@
+STRLEN simular la función de string.h strlen que indica la cantidad de caracteres que tiene una cadena.
+
+STRCPY simular la función que copia una cadena (origen, el segundo parámetro) en otra cadena (destino, el primer parámetro)
+
+STRCAT simular la función que concatena (pega una cadena a continuación de la otra) pega la cadena origen, (el segundo parámetro) en otra cadena destino, (el primer parámetro)
