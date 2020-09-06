@@ -25,18 +25,14 @@ int combinatorio(int n, int m)
     return combi;
 }
 
-int factorialEntero(int n)
+unsigned int factorialEntero(unsigned int n)
 {
-    int fact = n;
+    unsigned int fact = 1;
 
-    if(fact == 0)
-        return 1;
-
-    while(n > 1)
-    {
-        fact *= (n-1);
-        n--;
-    }
+   // si n es 0, no entra al for porque i que comienza con 0, da falso en la condicion i > 1 y fact se queda con 1.
+   // Si n es 1, ocurre lo mismo porque i > 1 es falso (i = 1) y fact se queda con el 1 y lo devuelve.
+   for(int i = n; i > 1; i--)
+       fact *= i;
 
     return fact;
 }
